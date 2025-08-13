@@ -1,5 +1,5 @@
 '''
-BWON427
+AAAA111
 '''
 
 import random #Do not alter
@@ -9,7 +9,7 @@ def main():
     available_categories = [1, 2, 3, 4, 5, 6] #Do not alter
     category_names = ["Ones", "Twos", "Threes", "Fours", "Fives", "Sixes"] #Do not alter
     filename = "High_Scores.txt" #Do not alter
-    username = "BWON427"
+    username = "AAAA111"
     print_banner(username)
     new_score = play_game(available_categories, category_names)
     handle_high_scores(filename, username, new_score)
@@ -117,3 +117,4 @@ def handle_high_scores(filename, username, new_score):
     pass
 
 main() #Do not alter
+
